@@ -3,12 +3,229 @@
   <head>
     <meta charset="UTF-8">
     <title>John Macdonald</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <script type='text/javascript' src='js/jquery.min.js'></script>
+    <script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='js/camera.min.js'></script> 
+    <link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'> 
+
+    <script type="text/javascript">
+      $( document ).ready(function() {
+        jQuery('#beam-camera').camera({
+            height: '600px',
+            pagination: true,
+            thumbnails: false,
+            navigation: true,
+            autoAdvance: false,
+            loader: 'bar',
+            fx: 'scrollHorz'
+        });
+
+
+        jQuery('#skynet-camera').camera({
+            height: '600px',
+            pagination: true,
+            thumbnails: false,
+            navigation: true,
+            autoAdvance: false,
+            loader: 'bar',
+            fx: 'scrollHorz'
+        });
+
+        jQuery('#thorloki-camera').camera({
+            height: '600px',
+            pagination: true,
+            thumbnails: false,
+            navigation: true,
+            autoAdvance: false,
+            loader: 'bar',
+            fx: 'scrollHorz'
+        });
+      });
+    </script>
   </head>
   <body>
-    <div style="width: 800px; margin: 0 auto; font-family: sans-serif;
-        font-size: 20px; text-align: center; line-height: 30px">
-        <p>The domain name johnmacdonald.org belongs to John Macdonald. You can
-        contact him at john@johnmacdonald.org</p>
+    <div class="content">
+      <h1>Robotics Project Portfolio</h1>
+      <span class="subtitle">John Macdonald</span>
+      <p>The following is a portfolio of the robots I've worked on in college, including some pictures and videos as well. Hope you enjoy!</p>
+      <h2>Beam</h2>
+      <h3>Robot</h3>
+      <ul>
+        <li>Type: Two-Wheeled Mobile Indoor Robot</li>
+        <li>Application: Research platform for socially competent navigation</li>
+        <li>Organization: <a href="http://rpal.cs.cornell.edu">Cornell University Robotic Personal Assistants Lab</a> (<a href="https://github.com/Cornell-RPAL">GitHub</a>)</li>
+      </ul>
+      <h3>Personal Involvement</h3>
+      <ul>
+        <li>Role: Undergraduate Research Assistant</li>
+        <li>Timeframe: September 2017 – Present</li>
+        <li>Highlights:
+            <ul>
+            <li>Working on improving frame-to-frame people correspondence for people tracker</li>
+            <li>Ported all software from ROS Indigo to Kinetic, gaining knowledge and experience with ROS</li>
+            <li>Setup all software on a laptop, devsing several workarounds for Linux compatibility issues</li>
+            </ul>
+        </li>
+      </ul>
+      <h3>Gallery</h3>
+      <div class="camera_wrap fluid_container camera_azure_skin" id="beam-camera">
+          <div data-src="images/beam_robot_2.jpeg">
+                <div class="camera_caption fadeFromBottom">
+                    The robot consists of a BeamPro telepresence robot, an Occam Stereo for 360 stereo vision, a forward and read Hokuyo lidar sensors for obstacle avoidance and navigation, and a chest-level forward facing lidar for 2D to 3D correspondence during people tracking. An externally mounted Alienware 15 laptop running ROS Kinetic and equipped with a NVIDIA GTX 1080 GPU is used as the main computer.
+                </div>
+          </div>
+          <div data-src="images/beam_gui.png">
+                <div class="camera_caption fadeFromBottom">
+                    Custom GUI interface for a telepresence application demonstation. People are recognized in the image using a neural network. The user can click on a person in the video feed to interact with, and the robot will navigate to that person, face them, and maintain a socially acceptable distance, even as the person moves.
+                </div>
+          </div>
+          <div data-src="images/beam_map_overhead.png">
+                <div class="camera_caption fadeFromBottom">
+                    Overhead view in rviz of the map created by gmapping using a Hokuyo lidar sensor.
+                </div>
+          </div>
+          <div data-src="images/beam_map_3d.png">
+                  <div class="camera_caption fadeFromBottom">
+                    3d view in rviz of a different mapping run. The colored scans from the multiple lidar sensors (chassis forward, chassis rear, and chest) are more easily distinguishable. The chest-height lidar is used for 2D to 3D correspondence for the people tracker.
+                  </div>
+          </div>
+      </div>
+
+      <h2>Next-Generation iRobot Roomba</h2>
+      <h3>Robot</h3>
+      <ul>
+        <li>Type: Two-Wheeled Mobile Indoor Robot</li>
+        <li>Application: Robotic Vacuuming</li>
+        <li>Organization: <a href="http://irobot.com">iRobot Corporation</a></li>
+      </ul>
+      <h3>Personal Involvement</h3>
+      <ul>
+        <li>Personal Role: Software Engineering Intern</li>
+        <li>Timeframe: May 2017 – August 2017</li>
+        <li>Highlights:
+            <ul>
+              <li> Designed and implemented sensing and control methods for a floor cleaning robot to localize and align to a wall, exploring options to make wall alignment more precise and robust to different wall surfaces</li>
+              <li> Designed and implemented a visualization tool to evaluate the area covered and path taken by an floor cleaning robot, enabling quick evaluation of the coverage performance of the software</li>
+              <li> Integrated visualization tool into the existing nightly automated test infrastructure, enabling daily evaluation of the progress of floor cleaning robot path planning and coverage algorithms</li>
+              <li><a href="https://github.com/ros-drivers/prosilica_driver/pull/15">Submitted pull request to ros_drivers/prosilica_driver package, which was merged</a> (ROS was used for marker tracking of a visual marker placed on the robot.)</li>
+            </ul>
+ </li>
+      </ul>
+      <h3>Gallery</h3>
+      <p>Sorry! Due to confidentiality agreements, I cannot share any media. I do highly recommend the product when it comes out, though!</p>
+
+      <h2>Artemis and Apollo</h2>
+      <h3>Robot</h3>
+      <ul>
+        <li>Type: Pair of Mobile Underwater Robots</li>
+        <li>Application: International RoboSub 2017 Competition Entry (Won 1st place)</li> 
+        <li>Organization: <a href="http://cuauv.org">Cornell University Autonomous Underwater Vehicle Team</a>  (<a href="https://github.com/cuauv">GitHub</a>)</li>
+      </ul>
+      <h3>Personal Involvement</h3>
+      <ul>
+        <li>Personal Role: Software Team Lead</li>
+        <li>Timeframe: September 2016 – July 2017</li>
+        <li>Highlights:
+            <ul>
+                <li>Lead a team of 12 undergraduate students to develop software for a robotic submarine; requirements for robot include computer vision, acoustic beacon localization, and manipulation</li>
+                <li>Wrote software for tracking of an acoustic beacon given the phase difference on arrival of the beacon signal between three recievers</li>            
+                <li>Implemented a sparse monocular visual odometery algorithm using OpenCV, with the goal of exploring low-cost localization options of the smaller vehicle</li>
+            </ul>
+      </ul>
+      <h3>Competition Video</h3>
+      <p>Video produced for the competition, giving an overview of the team's entry, as per the competition requirements. The video won the "Best Video" award.
+      <iframe width="800px" height="450px" src="https://www.youtube.com/embed/V-gOZzkITTU?rel=0" frameborder="0" allowfullscreen></iframe>
+      <h3>Software Overview Video</h3>
+      <p>Video of the Artemis AUV operating autonomously at the RoboSub competition, and in simulation. The robot has to complete an underwater obstable course, including sorting colored tubes, firing small projectiles at targets, ramming into colored buoys, and passing through a field goal.</p>
+      <video controls width=800 height=600>
+           <source src="videos/cuauv.mp4" type="video/mp4">
+      </video>
+
+      <h2>Skynet Jr.</h2>
+      <h3>Pesonal Involvement</h3>
+      <ul>
+        <li>Personal Role: Team Member</li>
+        <li>Timeframe: January 2017 – May 2017</li>
+      </ul>
+      <h3>Robot</h3>
+        <li>Type: Off-Road Autonomous Car</li>
+        <li>Application: Class project which became a research platform</li>
+        <li>Organization: Class project (formerly), Cornell University Robotic Personal Assistants Lab (currently)</li>
+        <li>Highlights:
+          <ul>
+            <li>Integrated ROS with an RC car chassis and stereo camera to create
+              a small self-driving car.</li>
+          </ul>
+        </li>
+      </ul>
+      <h3>Gallery</h3>
+      <div class="camera_wrap fluid_container camera_azure_skin" id="skynet-camera">
+          <div data-src="images/skynet_34.jpeg">
+                <div class="camera_caption fadeFromBottom">Front view of the Skynet Jr. robot. A ZED stereo camera is used for obstacle detection and navigation. An NVIDIA Jetson TX1 serves as the main computer.
+                </div>
+          </div>
+          <div data-src="images/skynet_front.jpeg">
+                <div class="camera_caption fadeFromBottom">Front view.</div>
+          </div>
+          <div data-src="images/skynet_side.jpeg">
+                <div class="camera_caption fadeFromBottom">Side view.</div>
+          </div>
+          <div data-src="images/pointcloud_cropped.png">
+                <div class="camera_caption fadeFromBottom">Point cloud calculated by the ZED stereo camera being visualized by rviz.</div>
+          </div>
+          <div data-src="images/navigation_cropped.png">
+                <div class="camera_caption fadeFromBottom">Visual odometery from the ZED and local map from the ROS navigation stack being visualized by rviz. The red object is a point cloud of a red sofa.</div>
+          </div>
+      </div>
+
+      <h2>Thor and Loki</h2> <h3>Robot</h3>
+      <ul>
+        <li>Type: Pair of Mobile Underwater Robots</li>
+        <li>Application: International RoboSub 2016 Competition Entry (Won 3rd place)</li> 
+        <li>Organization: <a href="http://cuauv.org">Cornell University Autonomous Underwater Vehicle Team</a> (<a href="https://github.com/cuauv">GitHub</a>) </li>
+      </ul>
+      <h3>Personal Involvement</h3>
+      <ul>
+        <li>Personal Role: Software Team Member</li>
+        <li>Timeframe: September 2015 – July 2016</li>
+        <li>Highlights:
+            <ul>
+               <li>Stayed on-campus over the summer to work on robot software in preparation for the 2016 RoboSub competition in July, in which we achieved 3rd place internationally</li>
+              <li>Implemented computer vision and high-level control software to identify targets labeled with letters, remove a physical cover from a target, and shoot plastic projectiles at targets with specified letters</li>
+              <li>Extensive field experience rapidly diagnosing and fixing issues with our robot software, drilling down from a high-level issue to the root cause among the 300,000+ lines of code</li>
+            </ul>
+        </li>
+      </ul>
+
+      <h3>Competition Video</h3>
+<iframe width="800" height="400" src="https://www.youtube.com/embed/KB5b_M7Ps2Y" frameborder="0" allowfullscreen></iframe>
+      <h3>Torpedoes Task Video</h3>
+      <video controls width=800 height=600>
+           <source src="videos/thor_auv_torpedoes.mp4" type="video/mp4">
+      </video>
+
+      <h3>Gallery</h3>
+      <div class="camera_wrap fluid_container camera_azure_skin" id="thorloki-camera">
+          <div data-src="images/thor_crane_below.jpg">
+                <div class="camera_caption fadeFromBottom">Thor being lifted into the competition pool by the crane.</div>
+          </div>
+          <div data-src="images/thor_debug.png">
+                <div class="camera_caption fadeFromBottom">Thor being debugged via the shared memory editor and plotter.</div>
+          </div>
+          <div data-src="images/thor_bins_sim.png">
+                <div class="camera_caption fadeFromBottom">Thor testing mission
+                logic inside of the custom simulator.</div>
+          </div>
+          <div data-src="images/thor_sim.png">
+                <div class="camera_caption fadeFromBottom">Thor exploring the
+                  simulator.</div>
+          </div>
+
+      </div>
+
     </div>
   </body>
 </html>
