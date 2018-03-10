@@ -2,11 +2,35 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 12pt;
+    max-width: 100%;
 }
 
 .fluid_container {
 	max-width: 800px;
     margin-top: 1em;
+}
+
+@media only screen and (max-width: 800px)  {
+    body {
+        font-size: 14pt;
+    }
+    h1 {
+        font-size: 2em
+    }
+    h2 {
+
+    }
+    .content {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    p {
+        max-width: 100%;
+        word-wrap: break-word;
+        overflow: auto;
+    }
+
+    video { width: 100% !important }
 }
 
 .content {
@@ -29,26 +53,37 @@ ul {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.5em !important;
+    font-weight: bold !important;
+    font-family: Raleway, sans-serif !important;
 }
 
 
 h2 {
-    font-size: 2em;
+    font-size: 2em !important;
+    font-weight: bold !important;
+    font-family: Raleway, sans-serif !important;
 }
 
 
 h3 {
-    font-size: 1.5em;
-    font-weight: normal;
+    font-size: 1.5em !important;
+    font-weight: normal !important;
+    font-family: Raleway, sans-serif !important;
 }
 
 h4 {
-    font-size: 1em;
-    font-weight: normal;
+    font-size: 1em !important;
+    font-weight: normal !important;
+    font-family: Raleway, sans-serif !important;
 }
 
 .subtitle {
-    font-size: 2em;
+    font-size: 1em;
     font-family: 'Raleway', 'sans-serif';
+}
+
+h1.title {
+    font-size: 3em !important;
+    font-weight: bold;
 }
