@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+
+{{ partial "header.html" . }}
+
+<body>
+    <div class="content" id="content">
+        {{ partial "top-bar.html" . }}
+        
+        {{ $pag := .Paginate (where .Data.Pages "Type" "project") }}
+        {{ range $pag.Pages }}
+            {{ partial "project.html" . }}
+        {{ end }}
+    </div>
+</body>
+
+</html>
