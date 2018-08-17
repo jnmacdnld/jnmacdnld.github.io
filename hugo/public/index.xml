@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/index.xml</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Aug 2018 22:43:35 +0000</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Thor and Loki</title>
+      <link>http://replace-this-with-your-hugo-site.com/projects/thor-loki/</link>
+      <pubDate>Wed, 15 Aug 2018 22:43:35 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/projects/thor-loki/</guid>
+      <description>&lt;p&gt;CUAUV was my first experience working on a relatively complex
+robotics project, an underwater robot with a 50-person team
+consisting of about 15 software team members. (I had competed in high
+school robotics, but I was leading a relatively small 3-person team.)
+The objective of CUAUV is
+to produce a robot to compete in the international RoboSub
+competition. As a team member, I developed an interest
+in computer vision, researching topics such as graph-based image
+segmentation to enable object detection invariant to lighting
+conditions and visual egomotion in order to caculate velocity without
+an expensive sonar sensor. I implemented simple proof-of-concept prototype
+algorithms for both of these.&lt;/p&gt;
+
+&lt;p&gt;As the competition takes in July, some team members opt to stay
+on-campus over the summer to work on the robot. I opted to stay
+during Summer 2016 as a sophomre. I worked extensively on computer vision algorithms
+and high-level state machine and control logic to
+to complete the &amp;ldquo;Torpedoes&amp;rdquo; task at RoboSub 2016. The task consisted of
+identifing targets labeled with letters, removing a physical cover from a target,
+and shooting plastic projectiles at targets with specified letters.
+(Video and images are shown below.) I spent nearly all of my time
+that summer writing computer vision code, testing and collecting logs in the pool,
+and revising and re-desgining code as needed to account for new failure
+modes, re-running against the collected log data, and finally
+re-testing in the pool.&lt;/p&gt;
+
+&lt;p&gt;I had a fantastic experience attending RoboSub 2016, speaking with
+other teams about how they had approached the challenges and watching
+my code manuver the vehicle around the obstacle course. I was super
+excited when our team acheived third place.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

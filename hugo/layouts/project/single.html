@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "header.html" . }}
+
+<body>
+    <div class="content" id="content">
+        {{ partial "top-bar.html" . }}
+        <p><a href="/">Back to Projects</a></p>
+        <br>
+
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+
+    var width = $('#content').width();
+
+    jQuery('.camera_wrap').camera({
+        width: width + 'px',
+        height: parseInt(width * 0.75) + 'px',
+        pagination: true,
+        thumbnails: false,
+        navigation: true,
+        autoAdvance: false,
+        loader: 'bar',
+        fx: 'scrollHorz'
+    });
+  });
+</script>
+
+<h2>{{ .Title }}</h2>
+<ul>
+  <li>Type: {{ .Params.robot_type }}</li>
+  <li>Application: {{ .Params.application }}</li>
+  <li>Organization: 
+    {{ if .Params.org_link }} 
+      <a href="{{ .Params.org_link }}"> 
+    {{ end }}
+    {{ .Params.org_name }}
+    {{ if .Params.org_link }} 
+      </a> 
+    {{ end }}
+
+    {{ if .Params.org_github }} 
+      (<a href="{{ .Params.org_github }}">GitHub</a>)
+    {{ end }}
+  
+  </li>
+</ul>
+
+<h3>Personal Involvement</h3>
+<ul>
+  <li>Personal Role: {{ .Params.role }}</li>
+  <li>Timeframe: {{ .Params.timeframe }}</li>
+</ul>
+
+
+{{ if .Params.videos }}
+  <h3> Videos </h3>
+  {{ range .Params.videos }}
+  <iframe width="{{ .width }}" height="{{ .height }}" src="{{ .src }}" frameborder="0" allowfullscreen></iframe>
+  {{ end }}
+{{ end }}
+
+{{ if .Params.images }}
+<h3> Gallery </h3>
+<div class="camera_wrap fluid_container camera_azure_skin" id="thorloki-camera">
+  {{ range .Params.images }}
+    <div data-src="/images/{{ .src }}">
+      <div class="camera_caption fadeFromBottom">{{ .caption }}</div>
+    </div>
+  {{ end }}
+</div>
+{{ end }}
+
+<h3>About</h3>
+<p>
+{{ .Content }}
+</p>
+
+    </div>
+</body>
+
+</html>
+
