@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://replace-this-with-your-hugo-site.com/index.xml</link>
+    <link>/index.xml</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Apr 2018 11:13:20 +0000</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Kuri</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/kuri/</link>
+      <link>/projects/kuri/</link>
       <pubDate>Mon, 30 Apr 2018 11:13:20 +0000</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/kuri/</guid>
+      <guid>/projects/kuri/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Beam</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/beam/</link>
+      <link>/projects/beam/</link>
       <pubDate>Thu, 31 Aug 2017 11:13:20 +0000</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/beam/</guid>
+      <guid>/projects/beam/</guid>
       <description>&lt;p&gt;I spent my senior year of undergrad working in the Robotic Personal Asisstants
 Lab on the socially competent navigation project. My role was to move the
 project from a set of simulations running in Matlab to Python code running on a
@@ -52,10 +52,10 @@ series of in-lab experiements with people to evaluate the algorithm performance.
     
     <item>
       <title>Artemis and Apollo</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/artemis-apollo/</link>
+      <link>/projects/artemis-apollo/</link>
       <pubDate>Mon, 19 Sep 2016 11:13:20 +0000</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/artemis-apollo/</guid>
+      <guid>/projects/artemis-apollo/</guid>
       <description>&lt;p&gt;After an exciting first year on the team, I was chosen to be one of the
 two software team leads, overseeing 15 software team members developing
 all of the software running on the main computer including that for vehicle
@@ -105,10 +105,10 @@ flawlessly in paralell was a moment I will never forget.&lt;/p&gt;
     
     <item>
       <title>Thor and Loki</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/thor-loki/</link>
+      <link>/projects/thor-loki/</link>
       <pubDate>Sat, 19 Sep 2015 11:13:20 +0000</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/thor-loki/</guid>
+      <guid>/projects/thor-loki/</guid>
       <description>&lt;p&gt;CUAUV was my first experience working on a relatively complex
 robotics project, an underwater robot with a 50-person team
 consisting of about 15 software team members. (I had competed in high
@@ -146,10 +146,10 @@ excited when our team acheived third place.&lt;/p&gt;
     
     <item>
       <title>Junior</title>
-      <link>http://replace-this-with-your-hugo-site.com/projects/skynet-jr/</link>
+      <link>/projects/skynet-jr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/projects/skynet-jr/</guid>
+      <guid>/projects/skynet-jr/</guid>
       <description></description>
     </item>
     

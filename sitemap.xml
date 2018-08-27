@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/projects/kuri/</loc>
+    <loc>/projects/kuri/</loc>
     <lastmod>2018-04-30T11:13:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/projects/beam/</loc>
+    <loc>/projects/beam/</loc>
     <lastmod>2017-08-31T11:13:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/projects/artemis-apollo/</loc>
+    <loc>/projects/artemis-apollo/</loc>
     <lastmod>2016-09-19T11:13:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/projects/thor-loki/</loc>
+    <loc>/projects/thor-loki/</loc>
     <lastmod>2015-09-19T11:13:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/projects/skynet-jr/</loc>
+    <loc>/projects/skynet-jr/</loc>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/</loc>
+    <loc>/</loc>
     <lastmod>2018-04-30T11:13:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/projects/</loc>
+    <loc>/projects/</loc>
     <lastmod>2018-04-30T11:13:20+00:00</lastmod>
     <priority>0</priority>
   </url>
