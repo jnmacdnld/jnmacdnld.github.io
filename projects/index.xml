@@ -2,53 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on My New Hugo Site</title>
-    <link>/projects/index.xml</link>
+    <link>/projects/</link>
     <description>Recent content in Projects on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Apr 2018 11:13:20 +0000</lastBuildDate>
-    <atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Sep 2016 11:13:20 +0000</lastBuildDate>
     
-    <item>
-      <title>Kuri</title>
-      <link>/projects/kuri/</link>
-      <pubDate>Mon, 30 Apr 2018 11:13:20 +0000</pubDate>
-      
-      <guid>/projects/kuri/</guid>
-      <description></description>
-    </item>
+	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>Beam</title>
-      <link>/projects/beam/</link>
-      <pubDate>Thu, 31 Aug 2017 11:13:20 +0000</pubDate>
-      
-      <guid>/projects/beam/</guid>
-      <description>&lt;p&gt;I spent my senior year of undergrad working in the Robotic Personal Asisstants
-Lab on the socially competent navigation project. My role was to move the
-project from a set of simulations running in Matlab to Python code running on a
-ROS robot in real-time. I designed a system which enabled modular swapping of
-different person perception and social navigation algorithms in order to gauge
-real-world performance.&lt;/p&gt;
-
-&lt;p&gt;In order to compare a range on algorithms, some which
-assumed certain motion constraints and some which did not, we converged on
-defining the action which an algorithm
-would take as an arbitrary velocity vector, which the framework would convert
-into wheel velocities using a feedback linearization approach. Additional
-constraints e.g. velocity magnitude constraint could be enforced by the
-framework
-in order to suit the platform being used.&lt;/p&gt;
-
-&lt;p&gt;I also implemented the lab&amp;rsquo;s novel Social Momentum algorithm inside this
-framework, as well as ORCA using the RVO library in order to demonstrate the
-interopability of the framework, as well as to enable comparison between
-different algorithms.&lt;/p&gt;
-
-&lt;p&gt;The project is currently using the framework I designed in order to run a
-series of in-lab experiements with people to evaluate the algorithm performance.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Artemis and Apollo</title>
@@ -56,51 +17,7 @@ series of in-lab experiements with people to evaluate the algorithm performance.
       <pubDate>Mon, 19 Sep 2016 11:13:20 +0000</pubDate>
       
       <guid>/projects/artemis-apollo/</guid>
-      <description>&lt;p&gt;After an exciting first year on the team, I was chosen to be one of the
-two software team leads, overseeing 15 software team members developing
-all of the software running on the main computer including that for vehicle
-control, computer vision, acoustic localization, and high level state
-machine logic. I emphasized early integration and system-level testing, as our team had
-previously focused on task-level testing (such as, the &amp;ldquo;Torpedoes&amp;rdquo; task
-or an object sorting task), leading to undiscovered
-failure modes when the vehicle executed sequences of RoboSub mission
-challenges. (One such failure mode, paired with an unduly strong
-assuption about course setup, directly lead to a sub-par performance
-in the RoboSub 2016 Finals and our placing third rather than first.)&lt;/p&gt;
-
-&lt;p&gt;Leading the software team was one the most challenging, if not the most
-challenging, experience I have had thus far.&lt;/p&gt;
-
-&lt;p&gt;I viewed our secondary vehicle as crucial to our success. By splitting tasks
-between the subs and testing in paralell, this second &amp;ldquo;minisub&amp;rdquo;
-would enable us to effectively double our testing time. During the
-fall, I spent time
-researching how to build a visual odometry algorithm in
-order to enable position estimation on our small vehicle, which lacked
-the sonar sensor traditionally required for underwater navigation. An
-initial implementation worked well on indoor test data, but struggled
-underwater, where patterns of dancing light from surface waves can cause false
-motion.&lt;/p&gt;
-
-&lt;p&gt;During the spring, I shelved my visual odometry development in order to
-focus on bringing the new vehicles into a state where the core vehicle
-sensing and control was reliable and task-specific development could be reasonably
-be carried out by our
-software team members who would be staying over
-the summer. We converged on a strategy in which our minisub would carry out
-tasks which did not require position estimation, with our larger sub carring out
-those that did. In particular, I focused on writing software to compensate
-for noise in our acoustic sensors needed for pinger localization. At the same
-time, I coordinated and worked on cross-subteam fixes to deal with
-minisub control instability eaused by (1) our magentometer detecting
-EM from upgraded thrusters and
-(2) forward thrusters which exterted too much torque about the vehicle
-center of mass. With the work the team did over
-the summer, we managed to place first in RoboSub 2017. We achieved a
-semi-finals score which was higher than the next best team by a factor
-of ten, which was truly incredible. I was priveleged to have such a great team. Seeing both vehicles working
-flawlessly in paralell was a moment I will never forget.&lt;/p&gt;
-</description>
+      <description>After an exciting first year on the team, I was chosen to be one of the two software team leads, overseeing 15 software team members developing all of the software running on the main computer including that for vehicle control, computer vision, acoustic localization, and high level state machine logic. I focused almost all of energy on leading this project during my junior year of undergrad, save for enough time to get decent grades in classes.</description>
     </item>
     
     <item>
@@ -109,39 +26,17 @@ flawlessly in paralell was a moment I will never forget.&lt;/p&gt;
       <pubDate>Sat, 19 Sep 2015 11:13:20 +0000</pubDate>
       
       <guid>/projects/thor-loki/</guid>
-      <description>&lt;p&gt;CUAUV was my first experience working on a relatively complex
-robotics project, an underwater robot with a 50-person team
-consisting of about 15 software team members. (I had competed in high
-school robotics, but I was leading a relatively small 3-person team.)
-The objective of CUAUV is
-to produce a robot to compete in the international RoboSub
-competition. The competition consists of a series of tasks of varying
-difficulty, which a fully
-autonomous robot can choose to complete in order to gain points. As a team member, I developed an interest
-in computer vision, researching topics such as graph-based image
-segmentation to enable object detection invariant to lighting
-conditions and visual egomotion in order to caculate velocity without
-an expensive sonar sensor. I implemented simple proof-of-concept prototype
-algorithms for both of these.&lt;/p&gt;
-
-&lt;p&gt;As the competition takes in July, some team members opt to stay
-on-campus over the summer to work on the robot. I opted to stay
-during Summer 2016 as a sophmore. I worked extensively on computer vision algorithms
-and high-level state machine and control logic to
-to complete the &amp;ldquo;Torpedoes&amp;rdquo; task at RoboSub 2016. The task consisted of
-identifing targets labeled with letters, removing a physical cover from a target,
-and shooting plastic projectiles at targets with specified letters.
-I spent nearly all of my time
-that summer writing computer vision code, testing and collecting logs in the pool,
-and revising and re-desgining code as needed to account for new failure
-modes, re-running against the collected log data, and finally
-re-testing in the pool.&lt;/p&gt;
-
-&lt;p&gt;I had a fantastic experience attending RoboSub 2016, speaking with
-other teams about how they had approached the challenges and watching
-my code manuver the vehicle around the obstacle course. I was super
-excited when our team acheived third place.&lt;/p&gt;
-</description>
+      <description>CUAUV was my first experience working on a relatively complex robotics project, an underwater robot with a 50-person team consisting of about 15 software team members. (I had competed in high school robotics, but I was leading a relatively small 3-person team.) The objective of CUAUV is to produce a robot to compete in the international RoboSub competition. The competition consists of a series of tasks of varying difficulty, which a fully autonomous robot can choose to complete in order to gain points.</description>
+    </item>
+    
+    <item>
+      <title>Beam</title>
+      <link>/projects/beam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/beam/</guid>
+      <description>I spent my senior year of undergrad working in the Robotic Personal Asisstants Lab on the socially competent navigation project. My role was to move the project from a set of simulations running in Matlab to Python code running on a ROS robot in real-time. I designed a system which enabled modular swapping of different person perception and social navigation algorithms in order to gauge real-world performance.
+In order to compare a range on algorithms, some which assumed certain motion constraints and some which did not, we converged on defining the action which an algorithm would take as an arbitrary velocity vector, which the framework would convert into wheel velocities using a feedback linearization approach.</description>
     </item>
     
     <item>
@@ -150,6 +45,15 @@ excited when our team acheived third place.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/skynet-jr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kuri</title>
+      <link>/projects/kuri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/kuri/</guid>
       <description></description>
     </item>
     

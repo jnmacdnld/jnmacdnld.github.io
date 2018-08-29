@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>/projects/kuri/</loc>
-    <lastmod>2018-04-30T11:13:20+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/beam/</loc>
-    <lastmod>2017-08-31T11:13:20+00:00</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>/projects/artemis-apollo/</loc>
@@ -22,18 +13,36 @@
   </url>
   
   <url>
+    <loc>/projects/beam/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/projects/skynet-jr/</loc>
   </url>
   
   <url>
+    <loc>/projects/kuri/</loc>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2018-04-30T11:13:20+00:00</lastmod>
+    <lastmod>2016-09-19T11:13:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/projects/</loc>
-    <lastmod>2018-04-30T11:13:20+00:00</lastmod>
+    <lastmod>2016-09-19T11:13:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
