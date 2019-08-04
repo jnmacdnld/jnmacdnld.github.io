@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>/</loc>
+    <lastmod>2016-09-19T11:13:20+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/projects/beam/</loc>
   </url>
   
@@ -27,12 +32,6 @@
   
   <url>
     <loc>/projects/kuri/</loc>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2016-09-19T11:13:20+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

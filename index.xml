@@ -35,7 +35,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/beam/</guid>
-      <description>I spent my senior year of undergrad working in the Robotic Personal Asisstants Lab on the socially competent navigation project. My role was to move the project from a set of simulations running in Matlab to Python code running on a ROS robot in real-time. I designed a system which enabled modular swapping of different person perception and social navigation algorithms in order to gauge real-world performance.
+      <description>I spent my senior year of undergrad working in the Robotic Personal Asisstants Lab on the socially competent navigation project. My role was to move the project from a set of simulations running in Matlab to Python code running on a ROS robot in real-time. I designed and implemented an architecure which enabled modular swapping of different person perception and social navigation algorithms in order to gauge real-world performance.
 In order to compare a range on algorithms, some which assumed certain motion constraints and some which did not, we converged on defining the action which an algorithm would take as an arbitrary velocity vector, which the framework would convert into wheel velocities using a feedback linearization approach.</description>
     </item>
     
