@@ -57,17 +57,17 @@
 
 
 
-<h2>Beam</h2>
+<h2>Bruce and Bumblebee</h2>
 
 
 <h3>My Contribution Highlights</h3>
 <ul>
   
-  <li>Transformed the novel Social Momentum algorithm from equations and MatLab simulations to Python code running in real-time on a ROS robot</li>
+  <li>Worked on robots for both crop monitoring and vineyard pruning at the Carnegie Mellon Field Robotics Center as part of an industry-academia partnership for my Master&#39;s</li>
 
-  <li>Designed and implemented framework for comparison of socially aware navigation algorithms running in real-time on a robot</li>
+  <li>Designed and implemented vineyard row detector neural network</li>
 
-  <li>Co-authored a paper, &#34;Effects of Distinct Robot Navigation Strategies on Human Behavior in a Crowded Environment,&#34; which was accepted to HRI 2019</li>
+  <li>Designed and implemented geometric line-fitting based row navigation for agricultural robots (superseded by neural network)</li>
 
 </ul>
 
@@ -85,12 +85,12 @@
           ">
           <div class="card">
             
-              <img class="card-img-top img-fluid" src="/images/beam_robot_2.jpeg"
+              <img class="card-img-top img-fluid" src="/images/row_detections.png"
             height=600>
             
             <div class="card-body">
               
-              <p class="card-text">The robot consists of a BeamPro telepresence robot, an Occam Stereo for 360 stereo vision, a forward and read Hokuyo lidar sensors for obstacle avoidance and navigation, and a chest-level forward facing lidar for 2D to 3D correspondence during people tracking. An externally mounted Alienware 15 laptop running ROS Kinetic and equipped with a NVIDIA GTX 1080 GPU is used as the main computer.</p>
+              <p class="card-text">Vineyard row detections from the row detection neural network operating on Bumblebee&#39;s lidar sensor. The target application is navigation of a vineyard for pruning.</p>
               
             </div>
           </div>
@@ -101,12 +101,11 @@
           ">
           <div class="card">
             
-              <img class="card-img-top img-fluid" src="/images/beam_map_overhead.png"
-            height=600>
+              <iframe width="800" height="450" src="https://www.youtube.com/embed/PJAyZ2VIdIM?si=hoKSKgHf_oz9rayb&amp;amp;start=5" frameborder="0" allowfullscreen  allow="autoplay; encrypted-media" ></iframe>
             
             <div class="card-body">
               
-              <p class="card-text">Overhead view in rviz of the map created by gmapping using a Hokuyo lidar sensor.</p>
+              <p class="card-text">Autonomous row following using the geometric line fitting approach for Bruce. The blue camera has a flash to enhance images for crop monitoring. This was superseded by a neural network based row detector for Bumblebee.</p>
               
             </div>
           </div>
@@ -117,12 +116,76 @@
           ">
           <div class="card">
             
-              <img class="card-img-top img-fluid" src="/images/beam_map_3d.png"
+              <img class="card-img-top img-fluid" src="/images/john_laptop_bruce.jpg"
             height=600>
             
             <div class="card-body">
               
-              <p class="card-text">3d view in rviz of a different mapping run. The colored scans from the multiple lidar sensors (chassis forward, chassis rear, and chest) are more easily distinguishable.     The chest-height lidar is used for 2D to 3D correspondence for the people tracker.</p>
+              <p class="card-text">Debugging in the field!</p>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item col-md-4
+        
+          ">
+          <div class="card">
+            
+              <img class="card-img-top img-fluid" src="/images/bruce_field.jpg"
+            height=600>
+            
+            <div class="card-body">
+              
+              <p class="card-text">Pests beware, Bruce is on patrol 😎</p>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item col-md-4
+        
+          ">
+          <div class="card">
+            
+              <img class="card-img-top img-fluid" src="/images/plant_health_monitoring.png"
+            height=600>
+            
+            <div class="card-body">
+              
+              <p class="card-text">Results from Bruce&#39;s plant health monitoring</p>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item col-md-4
+        
+          ">
+          <div class="card">
+            
+              <img class="card-img-top img-fluid" src="/images/bumblebee.jpg"
+            height=600>
+            
+            <div class="card-body">
+              
+              <p class="card-text">The Bumblebee vineyard pruning robot.</p>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item col-md-4
+        
+          ">
+          <div class="card">
+            
+              <img class="card-img-top img-fluid" src="/images/row_detector_flowchart.png"
+            height=600>
+            
+            <div class="card-body">
+              
+              <p class="card-text">Flowchart of the neural network row detector. The pointcloud is projected into a bird&#39;s eye view, then vine rows are segmented with a U-Net style network, and finally lines are fit to the segments to yield detections.</p>
               
             </div>
           </div>
@@ -145,59 +208,24 @@
 <h3>Project Info</h3>
 <ul>
   
-    <li>Robot Type: Two-Wheeled Mobile Indoor Robot</li>
-    <li>Application: Research platform for socially competent navigation</li>
+    <li>Robot Type: Wheeled robots</li>
+    <li>Application: Crop monitoring and vine pruning</li>
   
   <li>Organization: 
     
-       
-        <a href="http://rpal.cs.cornell.edu"> 
       
-      Cornell University Robotic Personal Assistants Lab
-       
-        </a> 
+      Carnegie Mellon Field Robotics Center / Rivendale Farms (Industry-Academia partnership)
       
 
-       
-        (<a href="https://github.com/Cornell-RPAL">GitHub</a>)
       
     
   
   </li>
   
-    <li>Personal Role: Undergraduate Research Assistant, September 2017 – May 2018</li>
+    <li>Personal Role: Master&#39;s Student, September 2018 – May 2020</li>
   
 </ul>
 
-
-
-<h3>More About My Experience</h3>
-<p>
-  <p>I spent my senior year of undergrad working in the Robotic Personal Asisstants
-Lab on the socially competent navigation project. My role was to move the
-project from a set of simulations running in Matlab to Python code running on a
-ROS robot in real-time. I designed and implemented an architecure which enabled
-modular swapping of
-different person perception and social navigation algorithms in order to gauge
-real-world performance.</p>
-<p>In order to compare a range on algorithms, some which
-assumed certain motion constraints and some which did not, we converged on
-defining the action which an algorithm
-would take as an arbitrary velocity vector, which the framework would convert
-into wheel velocities using a feedback linearization approach. Additional
-constraints e.g. velocity magnitude constraint could be enforced by the
-framework
-in order to suit the platform being used.</p>
-<p>I also implemented the lab&rsquo;s novel Social Momentum algorithm inside this
-framework, as well as Optimal Reciprocal Collision Avoidance (ORCA) using the RVO library in order to demonstrate the
-interopability of the framework, as well as to enable comparison between
-different algorithms.</p>
-<p>The social navigation framework which I designed and implemented was used to
-conduct experiments on social navigation, the results of which were summarised
-in a paper accepted to HRI 2019.</p>
-
-
-</p>
 
 
 <p><a href="/">Back to all Projects</a>
