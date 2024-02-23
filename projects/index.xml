@@ -6,70 +6,56 @@
     <description>Recent content in Projects on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Sep 2016 11:13:20 +0000</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Sep 2016 11:13:20 +0000</lastBuildDate>
+    <atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spot Nano</title>
       <link>/projects/spot-nano/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/projects/spot-nano/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Bruce and Bumblebee</title>
       <link>/projects/bruce-bumblebee/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/projects/bruce-bumblebee/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Kuri</title>
       <link>/projects/kuri/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/projects/kuri/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Artemis and Apollo</title>
       <link>/projects/artemis-apollo/</link>
       <pubDate>Mon, 19 Sep 2016 11:13:20 +0000</pubDate>
-      
       <guid>/projects/artemis-apollo/</guid>
       <description>After an exciting first year on the team, I was chosen to be one of the two software team leads, overseeing 15 software team members developing all of the software running on the main computer including that for vehicle control, computer vision, acoustic localization, and high level state machine logic. I focused almost all of energy on leading this project during my junior year of undergrad, save for enough time to get decent grades in classes.</description>
     </item>
-    
     <item>
       <title>Thor and Loki</title>
       <link>/projects/thor-loki/</link>
       <pubDate>Sat, 19 Sep 2015 11:13:20 +0000</pubDate>
-      
       <guid>/projects/thor-loki/</guid>
       <description>CUAUV was my first experience working on a relatively complex robotics project, an underwater robot with a 50-person team consisting of about 15 software team members. (I had competed in high school robotics, but I was leading a relatively small 3-person team.) The objective of CUAUV is to produce a robot to compete in the international RoboSub competition. The competition consists of a series of tasks of varying difficulty, which a fully autonomous robot can choose to complete in order to gain points.</description>
     </item>
-    
     <item>
       <title>Beam</title>
       <link>/projects/beam/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/projects/beam/</guid>
-      <description>I spent my senior year of undergrad working in the Robotic Personal Asisstants Lab on the socially competent navigation project. My role was to move the project from a set of simulations running in Matlab to Python code running on a ROS robot in real-time. I designed and implemented an architecure which enabled modular swapping of different person perception and social navigation algorithms in order to gauge real-world performance.
-In order to compare a range on algorithms, some which assumed certain motion constraints and some which did not, we converged on defining the action which an algorithm would take as an arbitrary velocity vector, which the framework would convert into wheel velocities using a feedback linearization approach.</description>
+      <description>I spent my senior year of undergrad working in the Robotic Personal Asisstants Lab on the socially competent navigation project. My role was to move the project from a set of simulations running in Matlab to Python code running on a ROS robot in real-time. I designed and implemented an architecure which enabled modular swapping of different person perception and social navigation algorithms in order to gauge real-world performance.&#xA;In order to compare a range on algorithms, some which assumed certain motion constraints and some which did not, we converged on defining the action which an algorithm would take as an arbitrary velocity vector, which the framework would convert into wheel velocities using a feedback linearization approach.</description>
     </item>
-    
     <item>
       <title>Junior</title>
       <link>/projects/skynet-jr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/projects/skynet-jr/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
